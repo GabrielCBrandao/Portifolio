@@ -1,5 +1,4 @@
 
-console.log("cheguei");
 function enviarWhats(event) {
     console.log("entrei na função");
     event.preventDefault(); // Evita o envio do formulário
