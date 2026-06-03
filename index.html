@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gabriel Brandão</title>
+</head>
+
+<body>
+    <div class="particulas"></div>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="inicio" class="cabecalho">
+
+        <img src="img/Retrato de um profissional de tecnologia.png" alt="Foto de Gabriel Brandão" class="foto-perfil">
+        <h1>Gabriel Brandão</h1>
+        <p class="cabecalho-subtitulo">Desenvolvedor Front-end</p>
+
+        <section id="sobre" class="sobre">
+            <h2 class="sobre-titulo">Sobre</h2>
+            <div class="sobre-caixa">
+                <p class="sobre-paragrafo">Sou um desenvolvedor front-end apaixonado por criar experiências digitais
+                    envolventes e intuitivas. Com uma sólida formação em HTML, CSS e JavaScript, estou sempre buscando
+                    aprimorar minhas habilidades e aprender novas tecnologias para entregar projetos de alta qualidade.
+                    Meu objetivo é transformar ideias em realidade, criando interfaces que sejam não apenas visualmente
+                    atraentes, mas também funcionais e acessíveis para todos os usuários.</p>
+            </div>
+        </section>
+        <section id="projetos" class="projetos">
+            <h2 class="projetos-titulo">Meus Projetos</h2>
+            <a href="https://gabrielcbrandao.github.io/GigaCar/">
+            <div class="projetos-caixa">
+                <div class="projetos-card">
+                    <img src="./img/projeto1.png" alt="projeto 1" class="projetos-imagem" />
+                    <div class="textos-projeto">
+                    <h3 class="info-projetos">Projeto 1: Site de E-commerce</h3>
+                    <p class="paragrafo-projetos">Desenvolvi um site de e-commerce fictício utilizando HTML, CSS e
+                        JavaScript. O site apresenta uma interface de usuário moderna e responsiva, com funcionalidades
+                        como carrinho de compras e filtro de produtos.</p>
+                        </div>
+
+                </div>
+                </a>
+                <a href="https://gabrielcbrandao.github.io/valentina-artesanatos/">
+                <div class="projetos-card">
+                    <img src="./img/projeto2.png" alt="projeto 2" class="projetos-imagem" />
+                    <div class="textos-projeto">
+                    <h3 class="info-projetos">Projeto 2: E-Commerce de artesanatos</h3>
+                    <p class="paragrafo-projetos">Desenvolvi um site de e-commerce de artesanatos  utilizando HTML, CSS e
+                        JavaScript. O site apresenta uma interface de usuário moderna e responsiva, com funcionalidades
+                        como carrinho de compras e filtro de produtos.</p>
+                        </div>
+                </div>
+                </a>
+               
+                </div>
+
+        </section>
+        <section id="contatos" class="contatos">
+            <h2 class="contatos-titulo">Entre em contato</h2>
+            <form class="formulario-contato" id="formulario">
+                <div class="grupo-form">
+                    <input placeholder="Nome" class="campo-form" id="nome">
+                </div>
+                <div class="grupo-form">
+                    <textarea class="campo-form" placeholder="Digite sua mensagem" id="mensagem" rows="5"></textarea>
+                </div>
+                <div class="grupo-form">
+                    <button type="submit" class="botao-form" onclick="enviarWhats(event)">Enviar Whatsapp</button>
+                </div>
+
+            </form>
+
+    </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
